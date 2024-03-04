@@ -20,9 +20,10 @@
     }
 
     main {
-        height: 60vh;
+        height: 80vh;
         background-color: #0d1b2a;
         text-align: center;
+        display: block;
     }
 
     footer {
@@ -35,17 +36,38 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
+    .container-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     input {
         width: 200px ;
         height: 50px;
         border: 1px solid black;
+        margin-top: 25px;
+        border-radius: 25px;
+        text-align: center;
+        margin-bottom: 25px;
     }
 
     #container {
-        width: 20%;
-        background-color: rgb(126, 22, 22);
+        margin-top: 100px;
+        width: 250px;
+        height: 250px;
+        background-color: grey;
         border-radius: 10px;
-        box-shadow: 5px 5px 3px black;
-        margin: 10% auto 10%;
+        box-shadow: 5px 5px 3px rgb(255, 255, 255);
+        padding: 45px;
+    }
+
+    button {
+        width: 100px;
+        border-radius: 30px;
+    }
+
+    h2 h3 img {
+        margin-top: 20px;
     }
 }
