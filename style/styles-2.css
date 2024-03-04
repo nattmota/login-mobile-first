@@ -20,45 +20,32 @@
     }
 
     main {
-        height: 80vh;
+        height: 60vh;
         background-color: #0d1b2a;
+        text-align: center;
     }
 
     footer {
         height: 10vh;
         background-color: #415a77;
-        
-    }
-
-    #poke-img {
-        padding: 7%;
-    }
-
-    .flex-text {
-        display: flex;
-        font-size: 15px;
-    }
-
-    p {
-        color: whitesmoke;
-        
-    }
-
-    #center-p {
-        text-align: center;
     }
 
     h1 {
         color: whitesmoke;
-    }
-
-    #center-p2 {
-        text-align: center;
-        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     input {
         width: 200px ;
         height: 50px;
+        border: 1px solid black;
+    }
+
+    #container {
+        width: 20%;
+        background-color: rgb(126, 22, 22);
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px black;
+        margin: 10% auto 10%;
     }
 }
