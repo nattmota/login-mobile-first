@@ -1,6 +1,6 @@
 function loadpk () {
-    let url = 'https://pokeapi.co/api/v2/pokemon/blaziken';
-    fetch(url)
+    let url = 'https://pokeapi.co/api/v2/pokemon/';
+    fetch(url + search.value.trim())
         .then((response) =>  {
             return response.json();
         })
