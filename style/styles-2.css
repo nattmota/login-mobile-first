@@ -7,8 +7,16 @@
     }
 
     header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 10vh;
         background-color: #415a77;
+    }
+    header div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     main {
@@ -19,6 +27,7 @@
     footer {
         height: 10vh;
         background-color: #415a77;
+        
     }
 
     #poke-img {
@@ -32,7 +41,7 @@
 
     p {
         color: whitesmoke;
-        margin-top: 45px;
+        
     }
 
     #center-p {
@@ -49,8 +58,7 @@
     }
 
     input {
-        padding: 5%;
-        margin-left: 130px;
-        margin-top: 10px;
+        width: 200px ;
+        height: 50px;
     }
 }
