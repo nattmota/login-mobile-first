@@ -1,4 +1,4 @@
-@media (max-width: 450px) {
+@media (max-width: 450px){
     * {
         font-family: Arial, Helvetica, sans-serif;
         margin: 0;
@@ -32,6 +32,7 @@
     }
 
     h1 {
+        margin-left: 30px;
         color: whitesmoke;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -43,31 +44,277 @@
     }
 
     input {
-        width: 200px ;
-        height: 50px;
+        width: 50%;
+        height: 60px;
         border: 1px solid black;
         margin-top: 25px;
+        margin-right: 5%;
         border-radius: 25px;
         text-align: center;
         margin-bottom: 25px;
     }
 
-    #container {
-        margin-top: 100px;
+    #container1 {
         width: 250px;
-        height: 250px;
+        height: 220px;
         background-color: grey;
         border-radius: 10px;
         box-shadow: 5px 5px 3px rgb(255, 255, 255);
-        padding: 45px;
+        padding: 35px;
+    }
+
+    #container2 {
+        margin-top: 10%;
+        width: 345px;
+        height: 240px;
+        background-color: grey;
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     button {
         width: 100px;
+        height: 50px;
         border-radius: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        background-color: lightgreen;
     }
 
     h2 h3 img {
         margin-top: 20px;
+    }
+
+    #img {
+        width: 50px;
+        height: 50;
+    }
+
+    #space-text1 {
+        margin-top: 3%;
+    }
+
+    .space-text2 {
+        margin-top: 10%;
+    }
+
+    span {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 1279px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        background-color: #415a77;
+    }
+    header div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        height: 80vh;
+        background-color: #0d1b2a;
+        text-align: center;
+        display: block;
+    }
+
+    footer {
+        height: 10vh;
+        background-color: #415a77;
+    }
+
+    h1 {
+        margin-left: 30px;
+        color: whitesmoke;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input {
+        margin-left: 130px;
+        width: 50%;
+        height: 60px;
+        border: 1px solid black;
+        margin-top: 25px;
+        margin-right: 2%;
+        border-radius: 25px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    #container1 {
+        width: 250px;
+        height: 220px;
+        background-color: grey;
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px rgb(255, 255, 255);
+        padding: 35px;
+    }
+
+    #container2 {
+        margin-top: 5%;
+        width: 345px;
+        height: 240px;
+        background-color: grey;
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    button {
+        width: 100px;
+        height: 50px;
+        border-radius: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        background-color: lightgreen;
+    }
+
+    h2 h3 img {
+        margin-top: 20px;
+    }
+
+    #img {
+        width: 50px;
+        height: 50;
+    }
+
+    #space-text1 {
+        margin-top: 3%;
+    }
+
+    .space-text2 {
+        margin-top: 10%;
+    }
+
+    span {
+        font-size: 35px;
+    }
+}
+
+
+@media (min-width: 1280px) and (max-width: 1924px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        background-color: #415a77;
+    }
+    header div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        height: 80vh;
+        background-color: #0d1b2a;
+        text-align: center;
+        display: block;
+    }
+
+    footer {
+        height: 10vh;
+        background-color: #415a77;
+    }
+
+    h1 {
+        margin-left: 30px;
+        color: whitesmoke;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input {
+        width: 50%;
+        height: 60px;
+        border: 1px solid black;
+        margin-left: 100px;
+        margin-top: 25px;
+        margin-right: 5%;
+        border-radius: 25px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    #container1 {
+        width: 250px;
+        height: 220px;
+        background-color: grey;
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px rgb(255, 255, 255);
+        padding: 35px;
+    }
+
+    #container2 {
+        margin-top: 5%;
+        width: 345px;
+        height: 240px;
+        background-color: grey;
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    button {
+        width: 100px;
+        height: 50px;
+        border-radius: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        background-color: lightgreen;
+    }
+
+    h2 h3 img {
+        margin-top: 20px;
+    }
+
+    #img {
+        width: 50px;
+        height: 50;
+    }
+
+    #space-text1 {
+        margin-top: 3%;
+    }
+
+    .space-text2 {
+        margin-top: 10%;
+    }
+
+    span {
+        font-size: 35px;
     }
 }

@@ -11,6 +11,8 @@ function loadpk () {
             document.getElementById('numero').innerHTML = data['id'];
             let pic = data['sprites']['back_default'];
             document.getElementById('pic').setAttribute('src', pic);
+            document.getElementById('altura').innerHTML = data['height'];
+            document.getElementById('peso').innerHTML = data['weight'];
             console.log(pic);
         })
 
